@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+clojure -A:depstar -m hf.depstar.uberjar webdev.jar
+web: java -cp webdev.jar clojure.main -m webdev.core
